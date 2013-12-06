@@ -7,6 +7,10 @@ module SimpleForm
                       group_method, group_label_method, value_method, label_method,
                       input_options, input_html_options)
       end
+            
+      def input_html_classes
+        super.push 'form-control'
+      end
 
       private
 

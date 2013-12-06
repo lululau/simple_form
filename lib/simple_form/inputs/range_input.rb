@@ -9,6 +9,10 @@ module SimpleForm
 
         super
       end
+                  
+      def input_html_classes
+        super.push 'form-control'
+      end
     end
   end
 end

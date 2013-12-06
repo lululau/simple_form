@@ -8,6 +8,10 @@ module SimpleForm
           @builder.send(:"#{input_type}_select", attribute_name, input_options, input_html_options)
         end
       end
+            
+      def input_html_classes
+        super.push 'form-control'
+      end
 
       private
 
