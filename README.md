@@ -1,5 +1,7 @@
 ![Simple Form Logo](https://raw.github.com/plataformatec/simple_form/master/simple_form.png)
 
+## support for twitter bootstrap v3 ~
+
 By [Plataformatec](http://plataformatec.com.br/).
 
 [![Gem Version](https://fury-badge.herokuapp.com/rb/simple_form.png)](http://badge.fury.io/rb/simple_form)
@@ -21,7 +23,7 @@ and refers to **Simple Form** 3.0. For older releases, check the related branch 
 Add it to your Gemfile:
 
 ```ruby
-gem 'simple_form'
+gem 'simple_form', :git => 'https://github.com/lululau/simple_form', :branch => 'bootstrap3'
 ```
 
 Run the following command to install it:
@@ -45,7 +47,7 @@ gem 'country_select'
 
 ### Bootstrap
 
-**Simple Form** can be easily integrated to the [Bootstrap](http://getbootstrap.com/2.3.2/) 2.3.
+**Simple Form** can be easily integrated to the [Bootstrap](http://getbootstrap.com/) 3.0.
 To do that you have to use the `bootstrap` option in the install generator, like this:
 
 ```console
@@ -59,7 +61,7 @@ For more information see the generator output, our
 [example application code](https://github.com/rafaelfranca/simple_form-bootstrap) and
 [the live example app](http://simple-form-bootstrap.plataformatec.com.br/).
 
-**NOTE**: **Simple Form** integration requires Bootstrap version 2.3.
+**NOTE**: **Simple Form** integration requires Bootstrap version 3.0
 
 ### Zurb Foundation 3
 
